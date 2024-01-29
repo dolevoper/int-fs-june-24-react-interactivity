@@ -1,0 +1,35 @@
+main {
+  display: flex;
+  flex-direction: row-reverse;
+  height: 100%;
+}
+
+.cookie-trey {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  button {
+    font-size: 3rem;
+  }
+}
+
+.side-bar {
+  background: #EEE;
+}
+
+.skill-toolbar {
+  display: flex;
+}
+
+.skill-button {
+  aspect-ratio: 1;
+  padding: 0.5rem;
+  appearance: none;
+  color: white;
+  background: #101010;
+  font-weight: 600;
+  border: 2px solid gold;
+}
